@@ -29,7 +29,6 @@ class flutterwave_payment_ravepay_notify extends CRM_Core_Payment_BaseIPN {
         $settings  =  self::$_paymentProcessor;
        if ($settings['is_test'] == 0) {
             $url =  'https://api.ravepay.co/flwv3-pug/getpaidx/api/verify';
-            $url =  'https://ravesandboxapi.flutterwave.com/flwv3-pug/getpaidx/api/verify';
             
             $secret_key = $settings['password'];
             

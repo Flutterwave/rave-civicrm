@@ -396,7 +396,6 @@ class flutterwave_payment_ravepay extends CRM_Core_Payment {
             $url =  'https://ravesandboxapi.flutterwave.com';
         }else{
             $url =  'https://api.ravepay.co';
-            $url =  'https://ravesandboxapi.flutterwave.com';
             
         }
        
