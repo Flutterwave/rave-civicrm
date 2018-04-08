@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension key="flutterwave.payment.ravepay" type="payment">
+  <downloadUrl>http://flutterwave.com/github/civicrm.zip</downloadUrl>
+  <file>ravepay</file>
+  <name>Rave by Flutterwave</name>
+  <description>Rave by Flutterwave Payment Processor</description>
+  <urls>
+    <url desc="Main Extension Page">https://flutterwave.com</url>
+  </urls>
+  <license>GPL2</license>
+  <maintainer>
+    <author>Flutterwave Developer</author>
+    <email>developers@flutterwavego.com</email>
+  </maintainer>
+  <releaseDate>2018-04-05</releaseDate>
+  <version>1.0.0</version>
+  <develStage>stable</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+    <ver>4.3</ver>
+    <ver>4.4</ver>
+    <ver>4.5</ver>
+    <ver>4.6</ver>
+  </compatibility>
+  <comments>Contact developers@flutterwavego.com if you need any help with this plugin.</comments>
+  <typeInfo>
+   <userNameLabel>Public Key</userNameLabel>
+   <passwordLabel>Secret Key</passwordLabel>
+   <signatureLabel></signatureLabel>
+   <subjectLabel></subjectLabel>
+   <urlSiteDefault>https://api.ravepay.co</urlSiteDefault>
+   <urlApiDefault></urlApiDefault>
+   <urlSiteTestDefault>https://ravesandboxapi.flutterwave.com</urlSiteTestDefault>
+   <urlApiTestDefault></urlApiTestDefault>
+   <urlButtonDefault></urlButtonDefault>
+   <urlButtonTestDefault></urlButtonTestDefault>
+   <billingMode>notify</billingMode>
+   <isRecur>0</isRecur>
+   <paymentType>1</paymentType>
+  </typeInfo>
+</extension>
