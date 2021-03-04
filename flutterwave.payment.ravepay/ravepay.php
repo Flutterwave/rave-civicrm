@@ -390,8 +390,8 @@ class flutterwave_payment_ravepay extends CRM_Core_Payment {
             'entity_id' => $params['contributionID'],
             'data'      => 'Secureeeeee'
         ));
-        // FLWPUBK-49b18c67b61bcad839f62e8b9db60d7a-X
-        // FLWSECK-d5342a00115c2f48c8dfa1a1eeb6a737-X
+        // FLWPUBK-xxxxxxxxxxx-X
+        // FLWSECK-xxxxxxxxxxx-X
         if($this->_paymentProcessor['is_test'] == 1){
             $url =  'https://ravesandboxapi.flutterwave.com';
         }else{
